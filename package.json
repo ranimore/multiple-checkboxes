@@ -1,6 +1,6 @@
 {
   "name": "multiple-checkboxes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Multiple checkboxes module for Angular.",
   "scripts": {
     "ng": "ng",
@@ -13,6 +13,16 @@
   },
   "private": false,
   "author": "Rani More",
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular 2",
+    "angular4",
+    "angular 5",
+    "angular 6",
+    "checkboxes",
+    "multiple"
+  ],
   "dependencies": {
     "@angular/animations": "^6.0.2",
     "@angular/common": "^6.0.2",
