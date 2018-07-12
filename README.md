@@ -1,5 +1,3 @@
-#How to use
-
 #Install package from npm
  
  	npm install multiple-checkboxes
@@ -27,7 +25,7 @@
 	})
 	export class AppModule { }
 
-##Index.html
+## Index.html
 
 	<!doctype html>
 
@@ -49,7 +47,7 @@
 	</html>
 
 
-##html 
+## html 
 
 	 <app-multiple-checkboxes (updatedList)="selectedLocationList($event)" [masterList]="locations" [title]="'Locations'"
  	 [DisplayField]="'name'"></app-multiple-checkboxes>
@@ -62,7 +60,7 @@
   
  	 #updatedlist returns checked items from given list
   
- #In .ts file 
+ # In .ts file 
  
  	 locations=[{id:1,name:"Pune"},{id:2,name:"Mumbai"},{id:3,name:"Delhi"},{id:4,name:"Goa"}];
   
