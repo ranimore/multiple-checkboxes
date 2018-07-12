@@ -1,8 +1,8 @@
-#Install package from npm
+# Install package from npm
  
  	npm install multiple-checkboxes
  
- #Include  module in app.module.ts file
+ # Include  module in app.module.ts file
  
  
  	import { MultipleCheckboxesModule } from 'multiple-checkboxes';
@@ -52,15 +52,15 @@
 	 <app-multiple-checkboxes (updatedList)="selectedLocationList($event)" [masterList]="locations" [title]="'Locations'"
  	 [DisplayField]="'name'"></app-multiple-checkboxes>
   
- 	 #mastelist is input array
+ 	 1. mastelist is input array
   
- 	 #title is title to show 
+ 	 2. title is title to show 
  
-	 #DisplayField is field you want to display as checkbox 
+	 3. DisplayField is field you want to display as checkbox 
   
- 	 #updatedlist returns checked items from given list
+ 	 4. updatedlist returns checked items from given list
   
- # In .ts file 
+ ## In .ts file 
  
  	 locations=[{id:1,name:"Pune"},{id:2,name:"Mumbai"},{id:3,name:"Delhi"},{id:4,name:"Goa"}];
   
