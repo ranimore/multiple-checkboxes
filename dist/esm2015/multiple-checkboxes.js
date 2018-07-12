@@ -1,0 +1,12 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+export { MultipleCheckboxesModule } from './public_api';
+export { MultipleCheckboxesComponent as ɵa } from './src/app/modules/multiple-checkboxes/multiple-checkboxes.component';
+export { FilterPipe as ɵb } from './src/app/modules/pipe/filter.pipe';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibXVsdGlwbGUtY2hlY2tib3hlcy5qcyIsInNvdXJjZVJvb3QiOiJuZzovL211bHRpcGxlLWNoZWNrYm94ZXMvIiwic291cmNlcyI6WyJtdWx0aXBsZS1jaGVja2JveGVzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFJQSx5Q0FBYyxjQUFjLENBQUM7QUFFN0IsT0FBTyxFQUFDLDJCQUEyQixJQUFJLEVBQUUsRUFBQyxNQUFNLHFFQUFxRSxDQUFDO0FBQ3RILE9BQU8sRUFBQyxVQUFVLElBQUksRUFBRSxFQUFDLE1BQU0sb0NBQW9DLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIEdlbmVyYXRlZCBidW5kbGUgaW5kZXguIERvIG5vdCBlZGl0LlxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vcHVibGljX2FwaSc7XG5cbmV4cG9ydCB7TXVsdGlwbGVDaGVja2JveGVzQ29tcG9uZW50IGFzIMm1YX0gZnJvbSAnLi9zcmMvYXBwL21vZHVsZXMvbXVsdGlwbGUtY2hlY2tib3hlcy9tdWx0aXBsZS1jaGVja2JveGVzLmNvbXBvbmVudCc7XG5leHBvcnQge0ZpbHRlclBpcGUgYXMgybVifSBmcm9tICcuL3NyYy9hcHAvbW9kdWxlcy9waXBlL2ZpbHRlci5waXBlJzsiXX0=
