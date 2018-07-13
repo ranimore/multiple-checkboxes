@@ -1,7 +1,7 @@
 # multiple-checkboxes
    Give the input array of object to show as checkboxes.This package returns checked items list and sorts list by checked items also provides filtering feature.
 ## screenshots
-default with checked<img src="https://github.com/ranimore/multiple-checkboxes/blob/master/src/assets/checked.PNG?raw=true" width="200" height="250">
+default with checked<img src="https://github.com/ranimore/multiple-checkboxes/blob/master/src/assets/checked.PNG?raw=true" width="150" height="250">
  filtering <img src="https://github.com/ranimore/multiple-checkboxes/blob/master/src/assets/filter.PNG?raw=true" width="150" height="250">
   Background css<img src="https://github.com/ranimore/multiple-checkboxes/blob/master/src/assets/bgClrHgt.PNG?raw=true" width="150" height="250">
 ## Install package from npm
