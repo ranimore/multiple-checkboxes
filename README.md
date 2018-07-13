@@ -1,7 +1,9 @@
-# Install package from npm
+# multiple-checkboxes
+   Give the input array of object to show as checkboxes.This package returs checked items list and sorts list by checked items also provides filtering feature.
+## Install package from npm
  
  	npm install multiple-checkboxes
-# Include  module in app.module.ts file
+## Include  module in app.module.ts file
  
  ```TypeScript
 import { MultipleCheckboxesModule } from 'multiple-checkboxes';
@@ -31,11 +33,11 @@ ngModule({
 
 ## component.html 
 ```HTML
-//if want to get selected/checked list as string array
+<!-- if want to get selected/checked list as string array -->
 	 <app-multiple-checkboxes (updatedList)="selectedLocationList($event)" [masterList]="locations" [title]="'Locations'"
  	 [DisplayField]="'name'"></app-multiple-checkboxes>
 
-//if want to get selected/checked list full json object array
+<!-- if want to get selected/checked list full json object array -->
 
 <app-multiple-checkboxes (updatedListWithFulldata)="selectedLocationList($event)" [masterList]="locations" [title]="'Locations'"
  	 [DisplayField]="'name'"></app-multiple-checkboxes>
@@ -45,17 +47,17 @@ ngModule({
 2. **title** is title to show 
 3. **DisplayField** is field you want to display as checkbox 
 4. **updatedlist** returns checked items as string from given list
-5.**updatedListWithFulldata** returns checked items as json object from given list
+5. **updatedListWithFulldata** returns checked items as json object from given list
   
  ## In component.ts file 
  ```TypeScript
- 	locations=[{id:1,name:"Pune"},{id:2,name:"Mumbai"},{id:3,name:"Delhi"},{id:4,name:"Goa"}];
-    	selectedLocationList(list){
-    	console.log(list)
-      //if Pune and Goa is selected
-      //output will be ["Pune","Goa"]   if updatedlist event used
-      //output will be [{id:1,name:"Pune"},{id:4,name:"Goa"}] if updatedListWithFulldata event used
-   	 }
+locations=[{id:1,name:"Pune"},{id:2,name:"Mumbai"},{id:3,name:"Delhi"},{id:4,name:"Goa"}];
+ selectedLocationList(list){
+ console.log(list)
+  //if Pune and Goa is selected
+  //output will be ["Pune","Goa"]   if updatedlist event used
+  //output will be [{id:1,name:"Pune"},{id:4,name:"Goa"}] if updatedListWithFulldata event used
+ }
   ```
   
   
