@@ -2,7 +2,7 @@
   <div class="card-header text-white bg-primary accordion-toggle" (click)="toggeldiv($event)">{{CollpseIcon}} &nbsp; {{title}}</div>
   <div class="card-body collapse" id="searchdiv" #top>
       <input [(ngModel)]="SearchText" class="form-control form-control-sm" type="search" placeholder="Search">
-      <div class="card-text card-box" id="style-1">
+      <div class="card-text card-box" id="style-1" [style.height.px]="height">
           <div class="" >
                   <label class="checkbox-container" *ngIf="isSelectall">
                           <input type="checkbox"  value="selectall" (change)="updateSelected($event,'')"> Select All

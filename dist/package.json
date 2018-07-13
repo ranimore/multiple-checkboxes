@@ -1,6 +1,7 @@
 {
   "name": "multiple-checkboxes",
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "license": "MIT",
   "description": "Multiple checkboxes module for Angular.",
   "private": false,
   "author": "Rani More",

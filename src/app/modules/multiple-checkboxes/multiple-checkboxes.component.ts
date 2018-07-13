@@ -16,6 +16,7 @@ export class MultipleCheckboxesComponent implements OnInit {
   @Output() updatedListWithFulldata=new EventEmitter<any>();
   @Input() DisplayField;
   @Input() title;
+  @Input() height?;
   CollpseIcon: string = '+';
   SearchText: any = '';
   selectedList: any = [];
