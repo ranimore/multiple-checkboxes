@@ -1,5 +1,5 @@
 # multiple-checkboxes
-   Give the input array of object to show as checkboxes.This package returs checked items list and sorts list by checked items also provides filtering feature.
+   Give the input array of object to show as checkboxes.This package returns checked items list and sorts list by checked items also provides filtering feature.
 ## Install package from npm
  
  	npm install multiple-checkboxes
