@@ -38,7 +38,7 @@ ngModule({
 ## component.html 
 ```HTML
 <!-- if want to get selected/checked list as string array -->
-	 <app-multiple-checkboxes (updatedList)="selectedLocationList($event)" [masterList]="locations" [title]="'Locations'"
+	 <app-multiple-checkboxes (updatedList)="selectedLocationList($event)" [height]="150" [masterList]="locations" [title]="'Locations'"
  	 [DisplayField]="'name'"></app-multiple-checkboxes>
 
 <!-- if want to get selected/checked list full json object array -->
@@ -52,8 +52,9 @@ ngModule({
 3. **DisplayField** is field you want to display as checkbox 
 4. **updatedlist** returns checked items as string from given list
 5. **updatedListWithFulldata** returns checked items as json object from given list
+6. **height** height of list div **_*optional_**
   
- ## In component.ts file 
+## In component.ts file 
  ```TypeScript
 locations=[{id:1,name:"Pune"},{id:2,name:"Mumbai"},{id:3,name:"Delhi"},{id:4,name:"Goa"}];
  selectedLocationList(list){
@@ -63,5 +64,14 @@ locations=[{id:1,name:"Pune"},{id:2,name:"Mumbai"},{id:3,name:"Delhi"},{id:4,nam
   //output will be [{id:1,name:"Pune"},{id:4,name:"Goa"}] if updatedListWithFulldata event used
  }
   ```
+## Custom css
+```CSS
+ .bg-primary{
+    background-color: #2cb5b5 !important   /*background color of title*/
+}
+.card-box{
+    height: 150px;  /*div size of list //overflow scroll */
+} 
+```
   
   
